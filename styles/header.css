@@ -1,0 +1,153 @@
+.header{
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: rgb(250, 238, 215);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-words{
+  opacity: 0;
+}
+
+.menu-option{
+  background-color: transparent;
+  border-color: white;
+}
+
+.left-section{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding-top: 10px;
+  margin-left: 35px;
+}
+
+.middle-section{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section{
+  flex: 1;
+  display: flex;
+  justify-content:space-around;
+  height: 100%;
+  padding-top: 10px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.menu-option{
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.menu-option:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon{
+  height: 40px;
+  margin-top: 7px;
+}
+
+.big-icon{
+  height: 95px;
+  transition: 0.5s;
+}
+
+.big-icon:hover{
+  transition: 0.5s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+
+/* xs */
+@media (min-width: 475px){
+}
+
+/* sm */
+@media (min-width: 640px){
+  .header{
+    height: 6rem;
+  }
+
+  .icon{
+    height: 30px;
+  }
+  
+  .big-icon{
+    height: 80px;
+  }
+}
+
+/* md */
+@media (min-width: 768px){ 
+  .header{
+    height: 7rem;
+  }
+
+  .icon{
+    height: 40px;
+  }
+  
+  .big-icon{
+    height: 95px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px){
+  .menu-words{
+    opacity: 1;
+  }
+  .header{
+    height: 8rem;
+  }
+
+  .icon{
+    height: 50px;
+    margin-bottom: 12px;
+    margin-top: 0;
+  }
+  
+  .big-icon{
+    height: 120px;
+    transition: 0.5s;
+  }
+}
+
+/* xl */
+/* @media (min-width: 1280px){
+  
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px){
+  
+} */

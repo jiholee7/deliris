@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deliris Tattoo</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="stylesheet" href="styles/artists.css">
+    <link rel="stylesheet" href="styles/studio.css">
+    <link rel="stylesheet" href="styles/reviews.css">
+    <link rel="stylesheet" href="styles/socials.css">
+    <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/closing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <a href="#artists">
+          <div class="menu-option">
+            <img class="icon" src="pics/artists icon.svg">
+            <p class="menu-words">Our Artists</p>
+          </div>
+        </a>
+        
+        <a href="#socials">
+          <div class="menu-option">
+            <img class="icon" src="pics/social.svg">
+            <p class="menu-words">Social Media</p>
+          </div>
+        </a>
+      </div>
+        
+      <a href="#studio">
+        <div class="middle-section">
+          <img class="big-icon" src="pics/big-logo.svg">
+        </div>
+      </a>
+      
+
+      <div class="right-section">
+        <a href="#info">
+          <div class="menu-option">
+            <img class="icon" src="pics/book.svg">
+            <p class="menu-words">Book Consultation</p>
+          </div>
+        </a>
+      
+        <a href="#reviews">
+          <div class="menu-option">
+            <img class="icon" src="pics/info.svg">
+            <p class="menu-words">Reviews</p>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="intro">
+      <div class="vid-container">
+        <video class="vid" autoplay loop muted>
+          <source src="studiovid.MP4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="vid-logo">
+        <img src="pics/small-logo.svg">
+      </div>
+
+      <div class="description">
+        <p id="words">
+          
+        </p> 
+      </div>
+    </div>
+
+    <div id="artists"></div>
+    
+    <div class="artist-title">
+      <p>Our Artists</p>
+    </div>
+    
+    <div class="container section artists">
+      <div class="artists-col1">
+        <button id="gabe" class="artist-btn">
+          Gabe Felicidad
+        </button>
+        <button id="hector" class="artist-btn">
+          Hector Consepcion
+        </button>
+        <button id="gibbs" class="artist-btn">
+          Gibran Bracero
+        </button>
+        <button id="paulo" class="artist-btn">
+          Paulo Cesar
+        </button>
+      </div>
+
+      <div id="boing" class="artists-col2">
+        <div class="artist-imgs-div">
+          <img class="artist-imgs" src="images/gabe/1.JPG">
+        </div>
+        <button class="img-left"><</button>
+        <button class="img-right">></button>
+      </div>
+    </div>
+
+    <div id="studio"></div>
+
+    <div class="section studio">
+      <div class="studio-col1">
+        <h2>Our Studio</h2>
+        <picture>
+          <source
+            srcset="images/studiopicnarrow.PNG"
+            media="(min-width: 1280px)"
+          >
+          <img src="images/studiopic.PNG">
+        </picture>
+        
+      </div>
+        
+      <div class="studio-col2">
+        <p>Discover the epitome of artistic mastery at Deliris Studio, the ultimate tattoo shop in Orlando. Our talented team of skilled artists will transform your body into a captivating canvas, bringing your visions to life. With a commitment to excellence and a passion for creativity, Deliris Studio is where unforgettable stories begin.</p>
+        <h3>~By Appointment Only~</h3>
+        <a target="_blank" href="https://delirisstudioorlando.as.me/schedule.php">Book Now</a>
+      </div>
+    </div>
+
+    <div id="reviews"></div>
+
+    <div class="container section reviews">
+      <div class="reviews-col1">
+        <h1>Testimonials</h1>
+        <div class="reviews-div">
+          <img class="reviews-imgs fade" src="pics/stars.svg">
+          <p id="review-words" class="fade">
+            Gibbs was super patient with me while I was making decisions on my design. He drew up exactly what I wanted and even when I wanted to change a few things last second, he was willing to do it with no hesitation. My tattoo exceeded my expectations. This tattoo is very important to me. This was something I have been thinking about for about 15 years. It is better than I ever dreamed. I did a large tattoo on my arm. I will be going back to do my other arm.
+            <br><br><strong>~Google Reviews~</strong>
+          </p>
+        </div>
+        <button class="review-left"><</button>
+        <button class="review-right">></button>
+      </div>
+      
+      <div class="reviews-col2">
+        <picture>
+          <source
+            srcset="images/reviewpic.PNG"
+            media="(min-width: 1024px)"
+          >
+          <img src="">
+        </picture>
+      </div>
+    </div>
+
+    <div id="socials"></div>
+
+    <div class="section socials">
+      <div class="socials-row1">
+        <p>Instagram</p>
+      </div>
+
+      <div class="socials-row2">
+        <a target="_blank" href="https://www.instagram.com/deliris_studio" class="social-box">
+          <div class="social-img">
+            <img src="images/socials/delirispfp.jpg">
+          </div>
+          <div class="social-name"> 
+            <p>Deliris Studio</p>
+          </div>
+        </a>
+
+        <a target="_blank" href="https://www.instagram.com/gabe_felicianoart" class="social-box">
+          <div class="social-img">
+            <img src="images/socials/gabepfp.jpg">
+          </div>
+          <div class="social-name">
+            <p>Gabe</p>
+          </div>
+        </a>
+
+        <a target="_blank" href="https://www.instagram.com/hector_concepcion" class="social-box">
+          <div class="social-img">
+            <img src="images/socials/hectorpfp.jpg">
+          </div>
+          <div class="social-name">
+            <p>Hector</p>
+          </div>
+        </a>
+
+        <a target="_blank" href="https://www.instagram.com/gibbs_tattoo" class="social-box">
+          <div class="social-img">
+            <img src="images/socials/gibbspfp.jpg">
+          </div>
+          <div class="social-name">
+            <p>Gibbs</p>
+          </div>
+        </a>
+
+        <a target="_blank" href="https://www.instagram.com/paulo_artandstuff" class="social-box">
+          <div class="social-img">
+            <img src="images/socials/paulopfp.jpg">
+          </div>
+          <div class="social-name">
+            <p>Paulo</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="socials-row3">
+        <p>~Look Through To See More Work From Our Artists~</p>
+      </div>
+    </div>
+
+    <div id="info"></div>
+
+    <div class="container section info">
+      <div class="info-booking">
+        <p class="info-booking-title">Bookings</p>
+        <p class="info-booking-email">For more information about consultantions or tattoo appointments send an email to:<br><strong>delirisstudio@gmail.com</strong></p>
+        <p class="info-booking-email">~Large or elaborate projects will require a personal consulation~</p>
+        <a target="_blank" href="https://delirisstudioorlando.as.me/schedule.php">Book Now</a>
+      </div>
+
+      
+
+    </div>
+
+    <div class="section closing">
+      <div class="closing-address">
+        <img src="pics/big-logo.svg">
+        <p>Studio based in Orlando FL 🌿<br><br>1221 N Mills Ave.<br>
+           Orlando FL 32803<br>
+           407-668-4200
+        </p>
+      </div>
+    </div>
+    
+
+    <script src="scripts/homepage.js"></script>
+  </body>
+
+</html>

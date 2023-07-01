@@ -1,0 +1,194 @@
+.artist-title{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-weight: 400;
+  font-size: var(--size-5xl);
+}
+
+.artists{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.artists-col1{
+  flex: 1;
+  height: 40rem;
+  display: grid;
+}
+
+.artist-btn{
+  transition: 0.5s;
+  font-size: var(--size-lg);
+  height: 4rem;
+}
+
+.artist-btn:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+  background-color:blanchedalmond;
+}
+
+.artists-col2{
+  flex: 3;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img-left{
+  position: absolute;
+  font-size: var(--size-5xl);
+  left: 2rem;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.img-left:hover,
+.img-right:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+  color: blanchedalmond;
+}
+
+.img-right{
+  position: absolute;
+  font-size: var(--size-5xl);
+  right: 2rem;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.artist-imgs-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+}
+
+.artist-imgs{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .45}
+  to {opacity: 1}
+}
+
+
+/* xs */
+/* @media (min-width: 475px){
+  
+} */
+
+/* sm */
+/* @media (min-width: 640px){
+  
+} */
+
+/* md */
+@media (min-width: 768px){
+ .artists{
+  flex-direction: row;
+ } 
+ .artist-btn{
+  height: 100%;
+ }
+}
+
+/* lg */
+@media (min-width: 1024px){
+  .artist-title{
+    font-size: var(--size-6xl);
+  }
+  .artists-col1{
+    height: 45rem;
+  }
+  
+  .artist-btn{
+    font-size: var(--size-lg);
+  }
+  
+  .artists-col2{
+    height: 45rem;
+  }
+  
+  .img-left{
+    font-size: var(--size-6xl);
+    left: 3rem;
+  }
+  
+  .img-right{
+    font-size: var(--size-6xl);
+    right: 3rem;
+  }
+  
+  .artist-imgs-div{
+    height: 45rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px){
+  .artists-col1{
+    height: 50rem;
+  }
+  
+  .artist-btn{
+    font-size: var(--size-xl);
+  }
+  
+  .artists-col2{
+    height: 50rem;
+  }
+  
+  .img-left{
+    font-size: var(--size-7xl);
+  }
+  
+  .img-right{
+    font-size: var(--size-7xl);
+  }
+  
+  .artist-imgs-div{
+    height: 50rem;
+  } 
+}
+
+/* 2xl */
+@media (min-width: 1536px){
+  .artists-col1{
+    height: 55rem;
+  }
+  
+  .artist-btn{
+    font-size: var(--size-3xl);
+  }
+  
+  .artists-col2{
+    height: 55rem;
+  }
+  
+  .img-left{
+    font-size: var(--size-8xl);
+  }
+  
+  .img-right{
+    font-size: var(--size-8xl);
+  }
+  
+  .artist-imgs-div{
+    height: 55rem;
+  }  
+}
