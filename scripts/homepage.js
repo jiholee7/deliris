@@ -129,7 +129,7 @@ reviewSliderRight.onclick = () => {
 
   let displayRev = reviews[revNum]
   
-  revDiv.innerHTML = `<img class="reviews-imgs fade" src="pics/stars.svg">
+  revDiv.innerHTML = `<img class="reviews-imgs fade" src="pics/fivestar.png">
   <p id="review-words" class="fade">${displayRev}
     <br><br><strong>~Google Reviews~</strong>
   </p>`
@@ -148,7 +148,7 @@ reviewSliderLeft.onclick = () => {
   
   let displayRev = reviews[revNum]
   
-  revDiv.innerHTML = `<img class="reviews-imgs fade" src="/pics/stars.svg">
+  revDiv.innerHTML = `<img class="reviews-imgs fade" src="pics/fivestar.png">
   <p id="review-words" class="fade">${displayRev}
     <br><br><strong>~Google Reviews~</strong>
   </p>`
